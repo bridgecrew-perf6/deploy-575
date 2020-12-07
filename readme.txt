@@ -23,3 +23,10 @@
     - 저장소에서 카피
         - git clone https://github.com/zsdf21/deploy.git
     - 이미 작성된 내용을 카피해서 만들어진 폴더 deploy안으로 붙여넣는다
+        - 커밋 메시지 작성
+        - 커밋
+            - 에러 : 메일 확인하라
+        - 공통 처리:
+        $ git config --global user.name "zsdf21"
+        $ git config --global user.email "zsdf21@gmail.com"
+        
