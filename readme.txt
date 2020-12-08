@@ -1,3 +1,4 @@
++
 # 구조
 /
  L requirements.txt : 특정 환경에서 사용한 모듈들을 기술
@@ -14,6 +15,14 @@
     => python2.7xx버전에 맞게 설치가 된다
     => python3.x버전 사용 불가
 - pip(or conda) install fabric3(o)
+
+
+
+# 에러체크
+- 리눅스 상에서
+    -$ tail -f / var/log/apach2/error.log
+    - 위 명령어를 실행하고, 모니터링하면서 문제점을 찾아서 수정
+    - 수정 -> git에 반영 -> $ fab deploy
 
 # github 사용
 1. github.com 접속 후 저장소 생성
