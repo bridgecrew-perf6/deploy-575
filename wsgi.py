@@ -15,6 +15,6 @@ print(cur_dir)
 # 에러 출력을 표준 출력으로 보낸다
 sys.stdout = sys.stderr
 # path 설정
-sys.pass.insert(0, cur_dir)
+sys.path.insert(0, cur_dir)
 
 # 서버 가동을 위한 모듈 가져오기
