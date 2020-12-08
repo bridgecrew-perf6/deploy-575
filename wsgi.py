@@ -4,7 +4,6 @@
     flask, django => 단독으로 서비스하는 것보다 apache/nginx라는 웹서버와 연동하여 주로 서비스한다
     apache 서버가 바라보는 엔트리 포인트(시작되는 파이썬 파일)을 이 파일로 지정
 '''
-from run import app as application
 import sys
 import os
 
@@ -17,4 +16,5 @@ sys.stdout = sys.stderr
 # path 설정
 sys.path.insert(0, cur_dir)
 
-# 서버 가동을 위한 모듈 가져오기
+# 서버 가동을 위한 모듈 가
+from run import app as application

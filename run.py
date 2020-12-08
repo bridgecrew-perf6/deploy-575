@@ -13,4 +13,4 @@ def home():
 # 리눅스 서버로 가면 wsgi.py이 엔트리포인트이므로 작동 안함
 # fabric을 설정한 룰에 의해서 서버가 작동된다
 if __name__ == '__main__':
-    app.run(debug=true)
+    app.run(debug=True)
